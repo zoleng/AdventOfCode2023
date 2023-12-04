@@ -16,7 +16,7 @@ for line in file:
     list_one = list(one_go_new[0].split(" "))
     list_two = list(one_go_new[1].split(" "))
     matches = list(set(list_one).intersection(list_two))
-    for i in range(0, len(matches), 1):
+    for i in range(0, len(matches), 1): #to improve 2n-1
         if i == 0:
             num_count_final = 1
         else:
@@ -32,7 +32,7 @@ print("""\
    /`.          ,'-`----Y   |
   (            ;        |   '
   |  ,-.    ,-'         |  /
-  |  | (   |         | /
+  |  | (   |            | /
   )  |  \  `.___________|/
   `--'   `--'
 
