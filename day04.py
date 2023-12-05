@@ -24,7 +24,6 @@ def readAndMakearray():
         one_go_new[1] = list(one_go_new[1].split(" "))
         one_go_new.append(1)
         list_cards.append(one_go_new)
-    print(list_cards)
 
 #part 1
 
